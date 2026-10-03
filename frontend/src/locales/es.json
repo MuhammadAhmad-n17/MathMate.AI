@@ -1,0 +1,89 @@
+{
+  "nav": {
+    "signIn": "Iniciar sesión",
+    "signOut": "Cerrar sesión",
+    "getStarted": "Comenzar gratis"
+  },
+  "landing": {
+    "badge": "Impulsado por motor matemático local — sin límites, sin costos de API",
+    "heroTitle1": "Resuelve cualquier",
+    "heroTitle2": "problema al instante.",
+    "heroSubtitle": "Solucionador de matemáticas gratuito con soluciones paso a paso, gráficos, OCR de imágenes y exportación a PDF. Funciona sin conexión.",
+    "startSolving": "Comienza a resolver gratis",
+    "tryDemo": "Probar demo",
+    "tryItNow": "Pruébalo ahora",
+    "tryItDesc": "Sin registro. Escribe un problema o haz clic en un ejemplo.",
+    "featuresTitle": "Todo lo que necesitas para dominar las matemáticas",
+    "featuresSubtitle": "Desde álgebra básica hasta cálculo avanzado — herramientas para estudiantes, profesores e ingenieros.",
+    "ctaTitle": "¿Listo para resolver de forma más inteligente?",
+    "ctaSubtitle": "Únete a miles de estudiantes y educadores. Gratis para siempre en funciones básicas.",
+    "ctaButton": "Crear cuenta gratuita",
+    "solvedLocally": "Resuelto localmente en tu navegador — sin API"
+  },
+  "solver": {
+    "title": "Resuelve cualquier",
+    "titleHighlight": "problema.",
+    "subtitle": "Escribe tu ecuación o sube una imagen — MathMate.AI la resolverá paso a paso.",
+    "placeholder": "ej. x^2 + 5x - 3 = 0, derivada de x^3, integrar x^2",
+    "solve": "Resolver",
+    "uploadImage": "Subir imagen",
+    "mathKeyboard": "Teclado matemático",
+    "close": "Cerrar",
+    "answer": "Respuesta final",
+    "steps": "Solución paso a paso",
+    "noSteps": "No hay pasos registrados.",
+    "solvedLocal": "Resuelto al instante (Motor local)",
+    "solvedCloud": "Resuelto con IA",
+    "solvingLocal": "Resolviendo tu problema...",
+    "solvingCloud": "Resolviendo con IA...",
+    "enterEquation": "Por favor ingresa una ecuación.",
+    "errorSolving": "Error al resolver. Inténtalo de nuevo."
+  },
+  "history": {
+    "title": "Historial",
+    "search": "Buscar en historial...",
+    "clearAll": "Borrar todo",
+    "noHistory": "Sin historial aún",
+    "noHistoryDesc": "Los problemas resueltos aparecerán aquí",
+    "solveAgain": "Resolver de nuevo →",
+    "storedLocally": "Almacenado localmente en tu dispositivo",
+    "local": "Local",
+    "ai": "IA"
+  },
+  "tabs": {
+    "solver": "Resolver",
+    "history": "Historial"
+  },
+  "auth": {
+    "loginTitle": "Bienvenido de vuelta. Ingresa tus credenciales.",
+    "registerTitle": "Desbloquea el futuro del aprendizaje.",
+    "email": "Correo electrónico",
+    "password": "Contraseña",
+    "username": "Usuario",
+    "signIn": "Iniciar sesión",
+    "createAccount": "Crear cuenta",
+    "noAccount": "¿No tienes cuenta?",
+    "hasAccount": "¿Ya tienes cuenta?",
+    "createOne": "Crear una",
+    "allFieldsRequired": "Todos los campos son obligatorios."
+  },
+  "export": { "pdf": "PDF", "latex": "LaTeX" },
+  "features": {
+    "instantSolving": "Resolución instantánea",
+    "instantSolvingDesc": "Resuelve álgebra, cálculo y más al instante en tu navegador sin llamadas API.",
+    "stepByStep": "Paso a paso",
+    "stepByStepDesc": "Cada solución muestra pasos claros para que entiendas el proceso.",
+    "imageOcr": "OCR de imágenes",
+    "imageOcrDesc": "Toma una foto de cualquier problema matemático y lo extraeremos y resolveremos.",
+    "worksOffline": "Funciona sin conexión",
+    "worksOfflineDesc": "Nuestro motor matemático local funciona completamente en tu navegador.",
+    "pdfExport": "Exportar PDF y LaTeX",
+    "pdfExportDesc": "Descarga soluciones como PDFs o archivos LaTeX formateados.",
+    "free": "100% Gratis",
+    "freeDesc": "Sin suscripciones, sin muros de pago. Matemáticas avanzadas para todos."
+  },
+  "graph": { "toggle2d": "2D", "toggle3d": "3D", "parseError": "No se puede analizar o graficar esta ecuación." },
+  "canvas": { "draw": "Dibujar", "clear": "Borrar", "recognize": "Reconocer", "recognizing": "Reconociendo...", "drawHere": "Dibuja tu ecuación aquí" },
+  "theme": { "dark": "Oscuro", "light": "Claro" },
+  "language": { "en": "English", "ar": "العربية", "es": "Español", "zh": "中文", "hi": "हिन्दी", "fr": "Français" }
+}

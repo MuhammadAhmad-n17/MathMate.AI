@@ -1,0 +1,80 @@
+# .gitignore for MathAI
+
+# Dependencies
+node_modules/
+npm-debug.log
+yarn-error.log
+package-lock.json
+yarn.lock
+
+# Environment variables — NEVER commit these
+.env
+.env.local
+.env.*.local
+
+# Production
+build/
+dist/
+out/
+
+# Misc
+.DS_Store
+*.pem
+*.log
+
+# Editor directories and files
+.vscode
+.idea
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# IDE
+*.swp
+*.swo
+*~
+.vim
+
+# OS
+Thumbs.db
+.Thumbs.db
+
+# Testing
+coverage/
+.nyc_output/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+develop-eggs/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+
+# MongoDB
+.mongo/
+mongod.log
+
+# Docker
+docker-compose.override.yml
+.docker/
+
+# Misc files
+*.bak
+*.tmp
+.cache/

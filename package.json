@@ -1,0 +1,32 @@
+{
+  "name": "mathai",
+  "version": "1.0.0",
+  "description": "MathAI - The Future of Mathematics Learning",
+  "private": true,
+  "scripts": {
+    "dev": "concurrently \"cd backend && npm run dev\" \"cd frontend && npm start\"",
+    "backend": "cd backend && npm run dev",
+    "frontend": "cd frontend && npm start",
+    "install-all": "npm install && cd backend && npm install && cd ../frontend && npm install",
+    "build": "cd frontend && npm run build",
+    "test": "cd backend && npm test && cd ../frontend && npm test",
+    "docker:build": "docker-compose build",
+    "docker:up": "docker-compose up",
+    "docker:down": "docker-compose down",
+    "docker:logs": "docker-compose logs -f"
+  },
+  "keywords": [
+    "mathematics",
+    "solver",
+    "calculus",
+    "algebra",
+    "linear-algebra",
+    "3d-visualization",
+    "ai"
+  ],
+  "author": "MathAI Team",
+  "license": "MIT",
+  "devDependencies": {
+    "concurrently": "^7.6.0"
+  }
+}

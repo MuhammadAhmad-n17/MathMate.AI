@@ -1,0 +1,112 @@
+{
+  "nav": {
+    "signIn": "Sign In",
+    "signOut": "Sign Out",
+    "getStarted": "Get Started Free"
+  },
+  "landing": {
+    "badge": "Powered by local math engine — no limits, no API costs",
+    "heroTitle1": "Solve any math",
+    "heroTitle2": "problem instantly.",
+    "heroSubtitle": "Free math solver with step-by-step solutions, graphing, image OCR, and PDF export. Works offline. No sign-up required to try.",
+    "startSolving": "Start Solving Free",
+    "tryDemo": "Try Demo",
+    "tryItNow": "Try it right now",
+    "tryItDesc": "No sign-up needed. Type a problem or click an example below.",
+    "featuresTitle": "Everything you need to master math",
+    "featuresSubtitle": "From basic algebra to advanced calculus — with tools built for students, teachers, and engineers worldwide.",
+    "ctaTitle": "Ready to solve smarter?",
+    "ctaSubtitle": "Join thousands of students and educators using MathMate.AI. Free forever for core features.",
+    "ctaButton": "Create Free Account",
+    "solvedLocally": "Solved locally in your browser — no API used"
+  },
+  "solver": {
+    "title": "Solve any",
+    "titleHighlight": "problem.",
+    "subtitle": "Type your equation or upload an image — MathMate.AI will solve it step by step.",
+    "placeholder": "e.g. x^2 + 5x - 3 = 0, derivative of x^3, integrate x^2",
+    "solve": "Solve",
+    "uploadImage": "Upload Image",
+    "mathKeyboard": "Math Keyboard",
+    "close": "Close",
+    "answer": "Final Answer",
+    "steps": "Step by Step Solution",
+    "noSteps": "No steps recorded.",
+    "solvedLocal": "Solved Instantly (Local Engine)",
+    "solvedCloud": "Solved with AI",
+    "solvingLocal": "Solving your problem...",
+    "solvingCloud": "Solving with AI...",
+    "enterEquation": "Please enter an equation.",
+    "errorSolving": "Error solving problem. Please try again."
+  },
+  "history": {
+    "title": "History",
+    "search": "Search history...",
+    "clearAll": "Clear All",
+    "noHistory": "No history yet",
+    "noHistoryDesc": "Solved problems will appear here",
+    "solveAgain": "Solve again →",
+    "storedLocally": "Stored locally on your device",
+    "local": "Local",
+    "ai": "AI"
+  },
+  "tabs": {
+    "solver": "Solver",
+    "history": "History"
+  },
+  "auth": {
+    "loginTitle": "Welcome back. Enter your credentials.",
+    "registerTitle": "Unlock the future of learning.",
+    "email": "Email",
+    "password": "Password",
+    "username": "Username",
+    "signIn": "Sign In",
+    "createAccount": "Create Account",
+    "noAccount": "Don't have an account?",
+    "hasAccount": "Already have an account?",
+    "createOne": "Create one",
+    "allFieldsRequired": "All fields are required."
+  },
+  "export": {
+    "pdf": "PDF",
+    "latex": "LaTeX"
+  },
+  "features": {
+    "instantSolving": "Instant Solving",
+    "instantSolvingDesc": "Solve algebra, calculus, and more instantly — right in your browser with zero API calls.",
+    "stepByStep": "Step-by-Step",
+    "stepByStepDesc": "Every solution shows clear, detailed steps so you understand the process, not just the answer.",
+    "imageOcr": "Image OCR",
+    "imageOcrDesc": "Snap a photo of any math problem — handwritten or printed — and we'll extract and solve it.",
+    "worksOffline": "Works Offline",
+    "worksOfflineDesc": "Our local math engine runs entirely in your browser. No internet? No problem.",
+    "pdfExport": "PDF & LaTeX Export",
+    "pdfExportDesc": "Download solutions as beautifully formatted PDFs or LaTeX files for your assignments.",
+    "free": "100% Free",
+    "freeDesc": "No subscriptions, no paywalls on basic features. Premium math solving for everyone."
+  },
+  "graph": {
+    "toggle2d": "2D",
+    "toggle3d": "3D",
+    "parseError": "Cannot parse or graph this equation."
+  },
+  "canvas": {
+    "draw": "Draw",
+    "clear": "Clear",
+    "recognize": "Recognize",
+    "recognizing": "Recognizing...",
+    "drawHere": "Draw your math equation here"
+  },
+  "theme": {
+    "dark": "Dark",
+    "light": "Light"
+  },
+  "language": {
+    "en": "English",
+    "ar": "العربية",
+    "es": "Español",
+    "zh": "中文",
+    "hi": "हिन्दी",
+    "fr": "Français"
+  }
+}

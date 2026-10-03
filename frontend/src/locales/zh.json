@@ -1,0 +1,71 @@
+{
+  "nav": { "signIn": "登录", "signOut": "退出", "getStarted": "免费开始" },
+  "landing": {
+    "badge": "由本地数学引擎驱动 — 无限制，无API费用",
+    "heroTitle1": "即时解决任何",
+    "heroTitle2": "数学问题。",
+    "heroSubtitle": "免费数学求解器，逐步解答、图形、图像OCR和PDF导出。离线可用。无需注册即可试用。",
+    "startSolving": "免费开始求解",
+    "tryDemo": "试用演示",
+    "tryItNow": "立即试用",
+    "tryItDesc": "无需注册。输入问题或点击下方示例。",
+    "featuresTitle": "掌握数学所需的一切",
+    "featuresSubtitle": "从基础代数到高级微积分 — 为全球学生、教师和工程师打造的工具。",
+    "ctaTitle": "准备好更智能地解题了吗？",
+    "ctaSubtitle": "加入数千名学生和教育工作者。基础功能永久免费。",
+    "ctaButton": "创建免费账户",
+    "solvedLocally": "在浏览器中本地求解 — 未使用API"
+  },
+  "solver": {
+    "title": "解决任何",
+    "titleHighlight": "问题。",
+    "subtitle": "输入方程或上传图片 — MathMate.AI将逐步求解。",
+    "placeholder": "例如 x^2 + 5x - 3 = 0，x^3的导数，积分x^2",
+    "solve": "求解",
+    "uploadImage": "上传图片",
+    "mathKeyboard": "数学键盘",
+    "close": "关闭",
+    "answer": "最终答案",
+    "steps": "逐步解答",
+    "noSteps": "没有记录的步骤。",
+    "solvedLocal": "即时求解（本地引擎）",
+    "solvedCloud": "AI求解",
+    "solvingLocal": "正在求解...",
+    "solvingCloud": "正在用AI求解...",
+    "enterEquation": "请输入一个方程。",
+    "errorSolving": "求解出错，请重试。"
+  },
+  "history": {
+    "title": "历史记录",
+    "search": "搜索历史...",
+    "clearAll": "清除全部",
+    "noHistory": "暂无历史记录",
+    "noHistoryDesc": "已解决的问题将显示在这里",
+    "solveAgain": "再次求解 →",
+    "storedLocally": "本地存储在您的设备上",
+    "local": "本地",
+    "ai": "AI"
+  },
+  "tabs": { "solver": "求解器", "history": "历史" },
+  "auth": {
+    "loginTitle": "欢迎回来。请输入凭据。",
+    "registerTitle": "开启学习的未来。",
+    "email": "电子邮件", "password": "密码", "username": "用户名",
+    "signIn": "登录", "createAccount": "创建账户",
+    "noAccount": "没有账户？", "hasAccount": "已有账户？",
+    "createOne": "创建一个", "allFieldsRequired": "所有字段都是必填的。"
+  },
+  "export": { "pdf": "PDF", "latex": "LaTeX" },
+  "features": {
+    "instantSolving": "即时求解", "instantSolvingDesc": "在浏览器中即时求解代数、微积分等。",
+    "stepByStep": "逐步解答", "stepByStepDesc": "每个解答都显示清晰的步骤。",
+    "imageOcr": "图像OCR", "imageOcrDesc": "拍摄数学问题的照片，我们将提取并求解。",
+    "worksOffline": "离线可用", "worksOfflineDesc": "本地数学引擎完全在浏览器中运行。",
+    "pdfExport": "PDF和LaTeX导出", "pdfExportDesc": "下载精美格式的PDF或LaTeX文件。",
+    "free": "100%免费", "freeDesc": "无订阅，无付费墙。为所有人提供高级数学求解。"
+  },
+  "graph": { "toggle2d": "2D", "toggle3d": "3D", "parseError": "无法解析或绘制此方程。" },
+  "canvas": { "draw": "绘画", "clear": "清除", "recognize": "识别", "recognizing": "识别中...", "drawHere": "在此处绘制数学方程" },
+  "theme": { "dark": "深色", "light": "浅色" },
+  "language": { "en": "English", "ar": "العربية", "es": "Español", "zh": "中文", "hi": "हिन्दी", "fr": "Français" }
+}

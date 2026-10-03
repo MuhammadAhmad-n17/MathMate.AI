@@ -1,0 +1,66 @@
+{
+  "nav": { "signIn": "Se connecter", "signOut": "Déconnexion", "getStarted": "Commencer gratuitement" },
+  "landing": {
+    "badge": "Propulsé par un moteur mathématique local — sans limites, sans coûts d'API",
+    "heroTitle1": "Résolvez n'importe quel",
+    "heroTitle2": "problème instantanément.",
+    "heroSubtitle": "Solveur mathématique gratuit avec solutions étape par étape, graphiques, OCR d'images et export PDF. Fonctionne hors ligne.",
+    "startSolving": "Commencer à résoudre",
+    "tryDemo": "Essayer la démo",
+    "tryItNow": "Essayez maintenant",
+    "tryItDesc": "Pas d'inscription nécessaire. Tapez un problème ou cliquez sur un exemple.",
+    "featuresTitle": "Tout ce dont vous avez besoin pour maîtriser les maths",
+    "featuresSubtitle": "De l'algèbre de base au calcul avancé — des outils pour étudiants, enseignants et ingénieurs du monde entier.",
+    "ctaTitle": "Prêt à résoudre plus intelligemment ?",
+    "ctaSubtitle": "Rejoignez des milliers d'étudiants et d'éducateurs. Gratuit pour toujours pour les fonctions de base.",
+    "ctaButton": "Créer un compte gratuit",
+    "solvedLocally": "Résolu localement dans votre navigateur — aucune API utilisée"
+  },
+  "solver": {
+    "title": "Résolvez n'importe quel",
+    "titleHighlight": "problème.",
+    "subtitle": "Tapez votre équation ou téléchargez une image — MathMate.AI la résoudra étape par étape.",
+    "placeholder": "ex. x^2 + 5x - 3 = 0, dérivée de x^3, intégrer x^2",
+    "solve": "Résoudre",
+    "uploadImage": "Télécharger une image",
+    "mathKeyboard": "Clavier mathématique",
+    "close": "Fermer",
+    "answer": "Réponse finale",
+    "steps": "Solution étape par étape",
+    "noSteps": "Aucune étape enregistrée.",
+    "solvedLocal": "Résolu instantanément (Moteur local)",
+    "solvedCloud": "Résolu avec l'IA",
+    "solvingLocal": "Résolution en cours...",
+    "solvingCloud": "Résolution avec l'IA...",
+    "enterEquation": "Veuillez entrer une équation.",
+    "errorSolving": "Erreur de résolution. Veuillez réessayer."
+  },
+  "history": {
+    "title": "Historique", "search": "Rechercher dans l'historique...", "clearAll": "Tout effacer",
+    "noHistory": "Pas encore d'historique", "noHistoryDesc": "Les problèmes résolus apparaîtront ici",
+    "solveAgain": "Résoudre à nouveau →", "storedLocally": "Stocké localement sur votre appareil",
+    "local": "Local", "ai": "IA"
+  },
+  "tabs": { "solver": "Solveur", "history": "Historique" },
+  "auth": {
+    "loginTitle": "Content de vous revoir. Entrez vos identifiants.",
+    "registerTitle": "Débloquez l'avenir de l'apprentissage.",
+    "email": "E-mail", "password": "Mot de passe", "username": "Nom d'utilisateur",
+    "signIn": "Se connecter", "createAccount": "Créer un compte",
+    "noAccount": "Pas de compte ?", "hasAccount": "Vous avez déjà un compte ?",
+    "createOne": "Créer un", "allFieldsRequired": "Tous les champs sont obligatoires."
+  },
+  "export": { "pdf": "PDF", "latex": "LaTeX" },
+  "features": {
+    "instantSolving": "Résolution instantanée", "instantSolvingDesc": "Résolvez algèbre, calcul et plus instantanément dans votre navigateur.",
+    "stepByStep": "Étape par étape", "stepByStepDesc": "Chaque solution montre des étapes claires et détaillées.",
+    "imageOcr": "OCR d'images", "imageOcrDesc": "Prenez une photo de n'importe quel problème mathématique et nous l'extrairons et le résoudrons.",
+    "worksOffline": "Fonctionne hors ligne", "worksOfflineDesc": "Notre moteur mathématique local fonctionne entièrement dans votre navigateur.",
+    "pdfExport": "Export PDF et LaTeX", "pdfExportDesc": "Téléchargez les solutions en PDF ou fichiers LaTeX formatés.",
+    "free": "100% Gratuit", "freeDesc": "Sans abonnement, sans paywall. Mathématiques avancées pour tous."
+  },
+  "graph": { "toggle2d": "2D", "toggle3d": "3D", "parseError": "Impossible d'analyser ou de tracer cette équation." },
+  "canvas": { "draw": "Dessiner", "clear": "Effacer", "recognize": "Reconnaître", "recognizing": "Reconnaissance...", "drawHere": "Dessinez votre équation ici" },
+  "theme": { "dark": "Sombre", "light": "Clair" },
+  "language": { "en": "English", "ar": "العربية", "es": "Español", "zh": "中文", "hi": "हिन्दी", "fr": "Français" }
+}

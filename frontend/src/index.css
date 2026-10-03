@@ -1,0 +1,165 @@
+@import "tailwindcss";
+
+/* ─── Light Mode Overrides ───────────────────────────────────────── */
+/* Default is dark mode. When .light is on <html>, swap colors. */
+:root.light {
+  color-scheme: light;
+}
+
+:root.light body {
+  background-color: #f8fafc;
+  color: #1e293b;
+}
+
+/* Light mode backgrounds */
+.light .bg-gray-950 { background-color: #f8fafc !important; }
+.light .bg-gray-900\/50 { background-color: rgba(241, 245, 249, 0.8) !important; }
+.light .bg-gray-900\/60 { background-color: rgba(241, 245, 249, 0.9) !important; }
+.light .bg-gray-900\/80 { background-color: rgba(241, 245, 249, 0.95) !important; }
+.light .bg-gray-900\/40 { background-color: rgba(241, 245, 249, 0.6) !important; }
+.light .bg-gray-950\/80 { background-color: rgba(248, 250, 252, 0.9) !important; }
+.light .bg-gray-950\/60 { background-color: rgba(248, 250, 252, 0.8) !important; }
+.light .bg-gray-800\/60 { background-color: rgba(226, 232, 240, 0.8) !important; }
+
+/* Light mode text */
+.light .text-gray-100 { color: #1e293b !important; }
+.light .text-gray-200 { color: #334155 !important; }
+.light .text-gray-300 { color: #475569 !important; }
+.light .text-gray-400 { color: #64748b !important; }
+.light .text-gray-500 { color: #94a3b8 !important; }
+.light .text-gray-600 { color: #94a3b8 !important; }
+.light .text-white { color: #0f172a !important; }
+
+/* Light mode borders */
+.light .border-gray-800 { border-color: #e2e8f0 !important; }
+.light .border-gray-800\/50 { border-color: rgba(226, 232, 240, 0.7) !important; }
+.light .border-gray-700 { border-color: #cbd5e1 !important; }
+.light .border-gray-700\/50 { border-color: rgba(203, 213, 225, 0.5) !important; }
+
+/* Light mode inputs */
+.light input, .light textarea {
+  background-color: #ffffff !important;
+  border-color: #cbd5e1 !important;
+  color: #1e293b !important;
+}
+.light input::placeholder {
+  color: #94a3b8 !important;
+}
+
+/* Light mode cards */
+.light .backdrop-blur-xl { background-color: rgba(255,255,255,0.8) !important; }
+.light .backdrop-blur-2xl { background-color: rgba(255,255,255,0.85) !important; }
+
+/* Light mode gradient text — keep readable */
+.light .bg-clip-text.text-transparent {
+  -webkit-text-fill-color: unset;
+  color: #4f46e5;
+  background: none;
+}
+
+/* Light mode glows — softer */
+.light [class*="blur-["] {
+  opacity: 0.3 !important;
+}
+
+/* ─── High Contrast Mode ──────────────────────────────────────── */
+:root.high-contrast {
+  color-scheme: dark;
+}
+:root.high-contrast body {
+  background-color: #000000;
+  color: #ffffff;
+  font-size: 1.05rem;
+}
+.high-contrast .bg-gray-950,
+.high-contrast .bg-gray-900\/50,
+.high-contrast .bg-gray-900\/60,
+.high-contrast .bg-gray-900\/80 { background-color: #000000 !important; }
+
+.high-contrast .text-gray-100,
+.high-contrast .text-gray-200,
+.high-contrast .text-gray-300,
+.high-contrast .text-gray-400,
+.high-contrast .text-gray-500,
+.high-contrast .text-white { color: #ffffff !important; }
+
+.high-contrast .border-gray-800,
+.high-contrast .border-gray-800\/50,
+.high-contrast .border-gray-700,
+.high-contrast .border-gray-700\/50 { border-color: #ffffff !important; }
+
+.high-contrast .bg-indigo-600 { background-color: #4f46e5 !important; }
+.high-contrast .text-indigo-400 { color: #a5b4fc !important; }
+.high-contrast .text-cyan-400,
+.high-contrast .text-cyan-500 { color: #67e8f9 !important; }
+.high-contrast .text-emerald-400 { color: #34d399 !important; }
+.high-contrast .text-amber-400 { color: #fbbf24 !important; }
+.high-contrast .text-red-400 { color: #f87171 !important; }
+
+.high-contrast input,
+.high-contrast textarea {
+  background-color: #000000 !important;
+  border: 2px solid #ffffff !important;
+  color: #ffffff !important;
+}
+.high-contrast input::placeholder { color: #9ca3af !important; }
+
+.high-contrast *:focus-visible {
+  outline: 3px solid #fbbf24 !important;
+  outline-offset: 2px;
+}
+
+/* Hide decorative blurs in high contrast */
+.high-contrast [class*="blur-["] { display: none !important; }
+.high-contrast .backdrop-blur-xl,
+.high-contrast .backdrop-blur-2xl { backdrop-filter: none !important; }
+
+/* Smooth transition for theme switch */
+*, *::before, *::after {
+  transition: background-color 0.3s ease, color 0.2s ease, border-color 0.3s ease;
+}
+
+/* ─── RTL Support ─────────────────────────────────────────────── */
+[dir="rtl"] {
+  direction: rtl;
+  text-align: right;
+}
+[dir="rtl"] .space-x-2 > :not([hidden]) ~ :not([hidden]) {
+  margin-right: 0.5rem;
+  margin-left: 0;
+}
+[dir="rtl"] .space-x-3 > :not([hidden]) ~ :not([hidden]) {
+  margin-right: 0.75rem;
+  margin-left: 0;
+}
+
+/* ─── Scrollbar ─────────────────────────────────────────────── */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: #374151;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #4b5563;
+}
+.light ::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+}
+.light ::-webkit-scrollbar-thumb:hover {
+  background: #94a3b8;
+}
+
+/* ─── Animations ─────────────────────────────────────────────── */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(8px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+.animate-in {
+  animation: fadeIn 0.5s ease-out;
+}

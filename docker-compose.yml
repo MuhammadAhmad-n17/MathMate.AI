@@ -1,0 +1,71 @@
+version: "3.8"
+
+services:
+  # MongoDB Database
+  mongodb:
+    image: mongo:6.0
+    container_name: mathai-mongodb
+    ports:
+      - "27017:27017"
+    volumes:
+      - mongodb_data:/data/db
+    environment:
+      MONGO_INITDB_DATABASE: mathai
+    networks:
+      - mathai-network
+
+  # Redis Cache
+  redis:
+    image: redis:7-alpine
+    container_name: mathai-redis
+    ports:
+      - "6379:6379"
+    networks:
+      - mathai-network
+
+  # Backend API
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    container_name: mathai-backend
+    ports:
+      - "5000:5000"
+    environment:
+      - PORT=5000
+      - MONGODB_URI=mongodb://mongodb:27017/mathai
+      - REDIS_URL=redis://redis:6379
+      - NODE_ENV=development
+      - JWT_SECRET=${JWT_SECRET}
+      - OPENAI_API_KEY=${OPENAI_API_KEY}
+      - MATHPIX_API_KEY=${MATHPIX_API_KEY}
+    depends_on:
+      - mongodb
+      - redis
+    networks:
+      - mathai-network
+    volumes:
+      - ./backend:/app
+      - /app/node_modules
+
+  # Frontend (Optional - usually runs separately)
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    container_name: mathai-frontend
+    ports:
+      - "3000:3000"
+    environment:
+      - REACT_APP_API_URL=http://localhost:5000/api
+    depends_on:
+      - backend
+    networks:
+      - mathai-network
+
+volumes:
+  mongodb_data:
+
+networks:
+  mathai-network:
+    driver: bridge
