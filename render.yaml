@@ -1,0 +1,25 @@
+# Render Blueprint — auto-deploys backend as a web service
+# Docs: https://render.com/docs/blueprint-spec
+
+services:
+  - type: web
+    name: mathmate-ai-backend
+    runtime: node
+    region: oregon
+    plan: free
+    rootDir: backend
+    buildCommand: npm install
+    startCommand: node server.js
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: PORT
+        value: 10000
+      - key: MONGODB_URI
+        sync: false  # You'll set this manually in the Render dashboard
+      - key: JWT_SECRET
+        generateValue: true  # Render auto-generates a secure random value
+      - key: CORS_ORIGIN
+        sync: false  # Set to your Vercel frontend URL after deploying
+      - key: GEMINI_API_KEY
+        sync: false  # Optional: set if you want AI-powered solving

@@ -14,10 +14,21 @@ const app = express();
 app.use(helmet()); // Sets various HTTP security headers
 app.use(limiter); // Global rate limiting (100 req / 15 min per IP)
 
-// CORS
+// CORS — supports comma-separated origins for multi-environment setups
+const allowedOrigins = (process.env.CORS_ORIGIN || "http://localhost:3000")
+  .split(",")
+  .map((o) => o.trim());
+
 app.use(
   cors({
-    origin: process.env.CORS_ORIGIN || "http://localhost:3000",
+    origin: (origin, callback) => {
+      // Allow requests with no origin (mobile apps, curl, etc.)
+      if (!origin || allowedOrigins.includes(origin)) {
+        callback(null, true);
+      } else {
+        callback(new Error("Not allowed by CORS"));
+      }
+    },
     credentials: true,
   }),
 );
